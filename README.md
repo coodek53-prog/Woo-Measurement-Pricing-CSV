@@ -144,4 +144,4 @@ El plugin ya no guarda la URL pública del CSV importado y usa nombres internos 
 Si no existe una tarifa para la combinación de variación y medidas, el producto no se puede añadir al carrito.
 El plugin guarda en el pedido el ancho, el alto y la tarifa aplicada mostrando cm al usuario, pero mantiene los mm internamente para no romper datos anteriores.
 Para CSV nuevos se recomienda usar columnas explícitas width_cm, height_cm, min_width_cm, max_width_cm, min_height_cm y max_height_cm.
-El ejemplo de referencia facilitado por el usuario fue dekorty.es/cortinas-enrollables, pero no pude inspeccionar su HTML desde esta sesión porque el sitio devolvió timeout; por eso la implementación replica el patrón estándar de medidas a medida en WooCommerce.
+El ejemplo de referencia facilitado por el usuario fue [dekorty.es/cortinas-enrollables](https://dekorty.es/cortinas-verticales), pero no pude inspeccionar su HTML desde esta sesión porque el sitio devolvió timeout; por eso la implementación replica el patrón estándar de medidas a medida en WooCommerce.
